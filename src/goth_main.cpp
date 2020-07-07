@@ -4,7 +4,8 @@
 
 int main() 
 {
-  std::shared_ptr<goth::base::command::Command> command = std::make_shared<goth::base::command::JumpCommand>();
+  std::shared_ptr<goth::base::command::Command> command =
+      std::make_shared<goth::base::command::JumpCommand>();
   command->execute();
   return 0;
 }

@@ -33,3 +33,6 @@
 
 # Binary folder
 bin/
+
+# Swap files
+*.swp
